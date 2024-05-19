@@ -43,3 +43,76 @@ h1 {
     justify-content: space-evenly;
     margin-top: 50px;
 }
+
+footer {
+    height: 372px;
+    width: 100%;
+    background-color: #000000;
+    margin-top: 39px;
+}
+
+h3 {
+    width: 155px;
+    padding-top: 63px;
+    padding-left: 144px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 26px;
+    line-height: 29.9px;
+    color: #FFFFFF;
+}
+
+h4 {
+    width: 295px;
+    padding-top: 23px;
+    padding-left: 144px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 17px;
+    line-height: 19.55px;
+    color: #99999A; 
+}
+
+.logos {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    margin-left: 139px;
+    margin-top: 12px;
+}
+
+h2 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    width: 120px;
+    font-size: 21px;
+    line-height: 24.15px;
+    color: #FFFFFF;
+}
+
+p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    width: 140px;
+    font-size: 17px;
+    margin-top: 32px;
+    margin-bottom: 10px;
+    line-height: 19.55px;
+    color: #5863E3;
+
+}
+
+.right{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top:  -210px;
+    gap: 90px;
+    margin-right: 176px;
+}
+  
+
