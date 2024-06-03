@@ -88,3 +88,56 @@
         width: 150px;
     }
   }
+
+
+  @media only screen and (max-width: 1150px) {
+   
+    
+    .flex {
+        flex-direction: column;
+    }
+
+    .left {
+        margin-bottom: 45px;
+    }
+
+    .right {
+        margin-left: 144px;
+    }
+  }
+
+
+  @media only screen and (max-width: 700px) {
+    .right {
+        flex-direction: column;
+        gap : 70px;
+    }
+
+
+    .flex {
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+  }
+
+
+  
+  @media only screen and (max-width: 450px) {
+    h3 {
+        width: 80px;
+    }
+
+    h4 {
+        width: 150px;
+    }
+  }
+
+  @media only screen and (max-width: 300px) {
+    h3 {
+        width: 50px;
+    }
+
+    h4 {
+        width: 100px;
+    }
+  }
