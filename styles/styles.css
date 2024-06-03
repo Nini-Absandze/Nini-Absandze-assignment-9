@@ -37,6 +37,12 @@ h1 {
     margin: 0 auto;
 }
 
+.flex {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
 .photos {
     width: 100%;
     display: flex;
@@ -49,11 +55,11 @@ footer {
     width: 100%;
     background-color: #000000;
     margin-top: 39px;
+    padding: 65px 0;
 }
 
 h3 {
     width: 155px;
-    padding-top: 63px;
     padding-left: 144px;
     font-family: "Roboto", sans-serif;
     font-weight: 700;
@@ -83,36 +89,23 @@ h4 {
     margin-top: 12px;
 }
 
+.right {
+    display: flex;
+    align-items: center;
+    gap: 125px;
+    
+}
+
 h2 {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    width: 120px;
     font-size: 21px;
-    line-height: 24.15px;
-    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    margin-bottom: 32px;
 }
 
 p {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    width: 140px;
-    font-size: 17px;
-    margin-top: 32px;
-    margin-bottom: 10px;
-    line-height: 19.55px;
-    color: #5863E3;
-
+   color: #5863e3;
+  font-family: 'Roboto', sans-serif;
+  font-size: 17px;
+  margin-bottom: 10px;
 }
-
-.right{
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    margin-top:  -210px;
-    gap: 90px;
-    margin-right: 176px;
-}
-  
-
